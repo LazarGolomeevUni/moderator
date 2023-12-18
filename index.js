@@ -8,7 +8,7 @@ var amqp = require('amqplib/callback_api');
 var queue = 'rpc_queue';
 var consumedChannel = '';
 
-amqp.connect('amqps://pepqwzfo:QdtFkPU3RuBGMfsFlMiXPlI0JylxB1nu@rat.rmq2.cloudamqp.com/pepqwzfo', function (error0, connection) {
+amqp.connect('amqps://rsaictxm:WL_JjhXfSmLKSyTKQDlLGxKhCr70pbFv@rat.rmq2.cloudamqp.com/rsaictxm', function (error0, connection) {
     if (error0) {
         throw error0;
     }
