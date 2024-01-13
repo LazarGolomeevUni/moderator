@@ -109,5 +109,5 @@ jobs:
     - name: Deploy to Kubernetes
       run: |
         sed -i "s|DOCKER_IMAGE|$DOCKERHUB_REPOSITORY/moderator:${{ github.sha }}|g" moderator-deployment.yaml && \
-        kubectl apply -f moderator-deployment.yaml \
+        kubectl apply -f moderator-deployment.yaml
         kubectl apply -f moderator-service.yaml
